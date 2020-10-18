@@ -26,48 +26,117 @@
       "name": "Librairy",
       "item": [
         {
-          "name": "createAuthor",
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": {
-              "raw": ""
+          "name": "Author",
+          "item": [
+            {
+              "name": "createAuthor",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": ""
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "editAuthor",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": ""
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "getAuthor",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": ""
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "deleteAuthor",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": ""
+                }
+              },
+              "response": []
             }
-          },
-          "response": []
+          ],
+          "protocolProfileBehavior": {},
+          "_postman_isSubFolder": true
         },
         {
-          "name": "editAuthor",
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": {
-              "raw": ""
+          "name": "Book",
+          "item": [
+            {
+              "name": "createBook",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": ""
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "getBook",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": ""
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "editBook",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": ""
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "deleteBook",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": ""
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "editBookAvailability",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": ""
+                }
+              },
+              "response": []
             }
-          },
-          "response": []
-        },
-        {
-          "name": "getAuthor",
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": {
-              "raw": ""
-            }
-          },
-          "response": []
-        },
-        {
-          "name": "deleteAuthor",
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": {
-              "raw": ""
-            }
-          },
-          "response": []
+          ],
+          "protocolProfileBehavior": {},
+          "_postman_isSubFolder": true
         }
       ],
       "protocolProfileBehavior": {}

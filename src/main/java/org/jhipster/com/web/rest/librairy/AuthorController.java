@@ -24,11 +24,11 @@ public class AuthorController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Author> getById(@PathVariable Long id){
-        return ResponseUtil.wrapOrNotFound(repository.findById(id));
+    public Author getById(@PathVariable Long id){
+        return repository.findById(id).orElseThrow(() -> new BadRequestAlertException("Author doesn't exist", ENTITY_NAME, "id doesn't exist"));
     }
 
-    @GetMapping("")
+    @GetMapping()
     public List<Author> getAll(){
         return repository.findAll();
     }
