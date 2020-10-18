@@ -3,7 +3,7 @@ services:
   jhipster-postgresql:
     image: postgres:12.3
     # volumes:
-    #     - ~/volumes/jhipster/Jhipster/postgresql/:/var/lib/postgresql/data/
+    #     - ~/volumes/jhipster/Jhipster/postgresql1/:/var/lib/postgresql/data/
     environment:
       - POSTGRES_USER=Jhipster
       - POSTGRES_PASSWORD=
